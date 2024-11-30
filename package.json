@@ -1,14 +1,15 @@
 {
   "name": "@reflct/package-test-repo",
-  "version": "0.0.0-alpha.3",
+  "version": "0.0.0-alpha",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reflct/package-test-repo.git"
+  },
   "author": "",
-  "license": "ISC",
-  "description": "",
-  "publishConfig": {
-    "@reflct:registry": "https://npm.pkg.github.com"
-  }
+  "license": "MIT",
+  "description": ""
 }
